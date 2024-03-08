@@ -211,6 +211,15 @@ body {
       margin-right: 0;
     }
   }
+  @media (max-width: 768px) {
+    .card-social {
+      flex-wrap: wrap;
+    }
+
+    .card-social a {
+      margin-bottom: 10px;
+    }
+  }
 }
 
 .card-buttons {
